@@ -1,3 +1,21 @@
-body{
-    padding: 0;
+h1{
+    color: rgb(139, 16, 73);
+}
+
+.container{
+    width:100%;
+    background-color: rgb(180, 180, 180);
+}
+
+.box{
+    text-align: right;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.percent{
+    width: 75%;
+    background-color: rgb(86, 86, 119);
 }
