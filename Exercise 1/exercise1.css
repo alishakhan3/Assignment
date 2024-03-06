@@ -1,18 +1,43 @@
-h1{
-    color: rgb(139, 16, 73);
+body
+{
+    background-color:rgb(72, 72, 116);
 }
 
-.container{
+
+.container1{
+    width: 30%;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 10%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+
+h1{
+    color: rgb(72, 72, 116);
+    padding-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container2{
     width:100%;
+    border-radius: 20px;
     background-color: rgb(180, 180, 180);
+    margin-top: 12%;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .box{
     text-align: right;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     color: white;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .percent{
