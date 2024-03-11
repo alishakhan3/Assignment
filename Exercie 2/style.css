@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(86, 148, 184);
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.introsec{
+    background-color:white;
+    color: black;
+    width: 40%;
+    margin:auto;
+    margin-top: 3%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    box-shadow: 10px;
+}
+
+.ibanner{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, each taking up equal space */
+    grid-template-rows: 1fr; /* Single row */
+    gap: 180px; /* Gap between grid items */
+}
+
+.name{
+    color: black;
+    grid-column: 1 / 2; /* Place in the first column */
+    text-align: left;
+}
+
+.image {
+    grid-column: 2 / 3; /* Place in the second column */
+    justify-self: end;
+    margin-top: 25px;
+}
+
+img {
+    width: 140px;
+    height: 140px; 
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+.educationsec{
+    background-color: white;
+    width: 40%;
+    margin:auto;
+    margin-top: 2%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+
+.ebanner{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns, each taking up equal space */
+    grid-template-rows: 1fr; /* Single row */
+    gap: 80px;
+}
+
+.title1{
+    color: black;
+    text-align: left;
+}
+
+.education{
+    color: black;
+    text-align: left;
+    padding-top: 4%;
+}
+
+.skillsec{
+    background-color: white;
+    width: 40%;
+    margin:auto;
+    margin-top: 2%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+
+.sbanner{
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns, each taking up equal space */
+    grid-template-rows: 1fr; /* Single row */
+    gap: 80px;
+}
+
+.skills{
+    color: black;
+    text-align: left;
+}
+
+.exsec{
+    background-color: white;
+    width: 40%;
+    margin:auto;
+    margin-top: 2%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+
+.exbanner{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns, each taking up equal space */
+    grid-template-rows: 1fr; /* Single row */
+    gap: 80px;
+}
+
+
+.experience{
+    color: black;
+    text-align: left;
+    padding-top: 4%;
+}
+
+p{
+    line-height: 0.1;
+}
+
+li::marker
+{
+    color: rgb(0, 108, 170);
+}
+
+.heading{
+    text-decoration: underline rgb(0, 108, 170);
+    text-underline-offset: 8px;
+}
