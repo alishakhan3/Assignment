@@ -56,7 +56,7 @@ body{
 .form-field {
   height: 50px;
   padding: 0 16px;
-  border: 2px solid rgb(252, 178, 144);
+  border: 2px solid rgb(250, 148, 101);
   border-radius: 30px;
   font-family: 'Trebuchet MS', sans-serif;
   outline: 0;
@@ -64,10 +64,9 @@ body{
 }
 
 input::placeholder {
-    font-weight: bold;
     opacity: 1;
     /*color: #ff9cd2;*/
-    color: rgb(252, 178, 144);
+    color: rgb(250, 148, 101);
     font-size: medium;
   }
 
